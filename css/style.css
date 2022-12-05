@@ -1,0 +1,74 @@
+/* Reset CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+/* Utilis */
+.box{
+    border: 2px dashed black;
+}
+
+/* header */
+
+header{
+    background-color: #ADD8E6;
+}
+
+/* nav */
+.header-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.header-nav > div{
+    display: flex;
+    background-color: #DAA520;
+    border: 1px dashed black;
+    width: 20vw;
+    padding: 5px;
+}
+
+/* sec */
+.header-sec{
+    display: flex;
+    background-color: #00008B;
+    width: 100vw;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-sec div.box{
+    background-color: #EE81EE;
+    width: 70%;
+    height: 80%;
+}
+
+/* main */
+section.main-sec{
+    height: 70vh;
+}
+
+.main-sec.dx{
+    background-color: white ;
+}
+
+.main-sec.sx{
+    background-color: white ;
+}
+
+
+
+
+
+
+

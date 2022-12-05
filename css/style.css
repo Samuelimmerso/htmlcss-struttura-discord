@@ -11,9 +11,15 @@ body{
 }
 
 /* Utilis */
+
 .box{
     border: 2px dashed black;
 }
+
+.interior-box{
+    border: 2px dashed white;
+}
+
 
 /* header */
 
@@ -29,10 +35,9 @@ header{
     padding: 10px;
 }
 
-.header-nav > div{
+.header-nav  div{
     display: flex;
     background-color: #DAA520;
-    border: 1px dashed black;
     width: 20vw;
     padding: 5px;
 }
@@ -53,18 +58,116 @@ header{
     height: 80%;
 }
 
+
 /* main */
+
 section.main-sec{
+    display: flex;
     height: 70vh;
+    justify-content: center;
+    align-items: center;
 }
 
+/* main section colors */
 .main-sec.dx{
-    background-color: white ;
+    background-color: white;
+    flex-direction: row;
 }
 
 .main-sec.sx{
-    background-color: white ;
+    background-color: lightgray;
+    flex-direction: row-reverse; 
 }
+
+/* main section box */
+.main-sec div.sky.box{
+    background-color: #1C90FF;
+    width: 60%;
+    height: 80%;
+}
+
+.main-sec div.pink.box{
+    background-color: #FFBFCB;
+    width: 30%;
+    height: 80%;
+}
+
+/* address section */
+address{
+    display: flex;
+    background-color: lightgray;
+    height: 150vh;
+    justify-content: center;
+    align-items: center;
+}
+
+address .green.box{
+    background-color: green;
+    width: 80%;
+    height: 90%;
+}
+
+/* footer */
+
+/* footer main section */
+.footer-main{
+    display: flex;
+    background-color: #343536;
+    width: 100vw;
+    height: 80vh;
+    margin-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-main .box:first-child{
+    display: flex;
+    background-color: #EF8080;
+    width: 20%;
+    height: 80%;
+}
+
+.footer-main .box{
+    display: flex;
+    width: 60%;
+    height: 80%;
+}
+
+
+.footer-main .box .interior-box{
+    background-color: rgb(24, 182, 182);
+    width: calc(100%/4);
+} 
+
+/* footer navigation bar */
+.footer-nav{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #343536;
+    height: 15vh;
+}
+
+.footer-nav .nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    width: 80%;
+    height: 50%;
+}
+
+.footer-nav  div.box{
+    display: flex;
+    background-color: #EF8080;
+}
+
+
+
+
+
+
+
 
 
 
